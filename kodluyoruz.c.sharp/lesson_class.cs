@@ -19,5 +19,17 @@
         public string surname { get; set; }
         public int number { get; set; }
         public string departman { get; set; }
+
+        public worker()
+        {
+            
+        }
+        public worker(string name, string surname, int number, string departman)
+        {
+            this.name = name;
+            this.departman = departman;
+            this.number = number;
+            this.surname = surname;
+        }
     }
 }
